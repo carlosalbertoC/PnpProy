@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #4a6f22;
+    color: aliceblue;
+    margin: 0;
+}
+
+section{
+        height: 90%;
+        background-image: url("./images/Escudo_de_la_Policía_Nacional_del_Perú.png");
+      background-size: contain;
+        background-repeat:no-repeat;
+        background-position: center center;
+}
+
+.sPart{
+    display: inline-block;
+    margin: 2% 4%;
+    width: 40%;
+}
+
+#left {
+    margin-bottom: 50px;
+    height: 100%;
+}
+
+#right{
+    margin-top: 10%;
+    margin-left: 50px;
+}
+
+.rbox{
+    display: block;
+}
+
+.txtbox{
+    padding: 10px;
+    margin-bottom: 20px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    border: 1px solid rgb(189, 188, 188);
+}
+
+.button {
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1{
+    background-color: #008CBA; /* Green */
+}
+
+.button2{
+    background-color: #4CAF50; /* Green */
+}
+
+.aref{
+    font-size: small;
+}
